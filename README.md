@@ -38,7 +38,7 @@ get further detail by using ip2location.com website.
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/InformationGathering/assets/119644432/d9bd2d30-4032-48f2-8496-039da0f3d7d8)
 
 ## History of the website:
-##Output:
+## Output:
 
 https://web.archive.org/
 
@@ -73,14 +73,14 @@ whatweb -v -a 3 172.17.52.201
 ```
 httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 ```
-##Output:
+## Output:
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/InformationGathering/assets/119644432/09012147-0f51-415b-8d52-2117d1d06dfa)
-##Tracing the Location:
-##TCP Traceroute:
+## Tracing the Location:
+## TCP Traceroute:
 ```
 sudo traceroute -T www.saveetha.ac.in
 ```
-##Output:
+## Output:
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/InformationGathering/assets/119644432/074f675c-6849-4925-931f-1fc8ba9a3c70)
 
 ## UDP Traceroute:
@@ -90,7 +90,7 @@ sudo traceroute -U www.saveetha.ac.in
 ## Output:
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/InformationGathering/assets/119644432/46e58b45-6500-4b50-8497-3095dc40a698)
 
-##ICMP Traceroute:
+## ICMP Traceroute:
 ```
 sudo traceroute  www.saveetha.ac.in
 ```
